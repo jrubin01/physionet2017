@@ -1,0 +1,35 @@
+# file: dependencies.txt
+#
+# This file lists additional Debian packages that must be installed
+# prior to running your entry's 'setup.sh' and 'next.sh' scripts.
+# Each package must be on a separate line.
+
+#octave
+#octave-signal
+#octave-statistics
+
+matlab
+libgl1-mesa-glx
+libxt6
+python-dev
+build-essential
+python-setuptools
+python-numpy
+python-scipy
+python-pandas
+python-h5py
+virtualenv
+python-yaml
+python-theano = 0.8.2-6
+python-six    = 1.10.0-3
+gfortran
+libopenblas-base
+libopenblas-dev
+liblapack-dev
+wfdb=10.5.25~pre2-0~pn1
+ecgpuwave=1.3.3-0~pn1
+libwfdb-dev=10.5.25~pre2-0~pn1
+wfdb-app-toolbox=0.9.9+src-0~pn1
+libwfdb10=10.5.25~pre2-0~pn1
+ecgpuwave=1.3.3-0~pn1
+  
